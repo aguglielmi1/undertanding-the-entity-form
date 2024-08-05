@@ -18,12 +18,12 @@ async function Content({ searchParams }: { searchParams: SearchParams }) {
   return (
     <main className="flex min-h-screen w-full h-full flex-col items-center justify-between p-0">
       <iframe
-      id="JotFormIFrame-241985099094067"
+      id="JotFormIFrame-241685603386059"
       title="Form with invisible email"
       onLoad={() => window.parent.scrollTo(0, 0)}
       allowTransparency={true}
       allow="geolocation; microphone; camera; fullscreen"
-      src={`https://form.jotform.com/241985099094067?email=${data.client?.email}`}
+      src={`https://form.jotform.com/241685603386059?email=${data.client?.email}`}
       frameBorder="0"
       className="w-full h-full border-none"
       style={{
